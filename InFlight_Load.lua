@@ -44,7 +44,7 @@ if GetAddOnEnableState(UnitName("player"), "InFlight") == 2 then
 	local ipairs, strfind = ipairs, strfind
 
 	-- LOCALIZATION
-	local L = LibStub("AceLocale-3.0"):GetLocale("InFlight", true)
+	local L = LibStub("AceLocale"):GetLocale("InFlight", true)
 	InFlight.L = L
 
 	local t

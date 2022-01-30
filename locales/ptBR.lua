@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("InFlight", "ptBR")
+local L = LibStub("AceLocale"):NewLocale("InFlight", "ptBR")
 if not L then return end
 
 L["Nighthaven"] = "Refúgio Noturno"
